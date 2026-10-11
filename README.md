@@ -1,13 +1,16 @@
 # DriveClub Model Importer
-[img]dc_logo.png[/img]
----
+<p align="center">
+ <img width="50%" src="https://github.com/oxmaulmike2581/io_import_driveclub/blob/master/dc_logo.png" alt="DriveClub Logo" />
+</p>
+<hr />
+
 ## Features
 * import vehicle .rpk files with all LODs, UVs, normals, colors, etc.
 * partial support for materials
 * export textures to .dds (DX10) with all mipmaps
 
 ## Installation
-* Edit -> Preferences -> Addons -> Install from Disk - select io_import_driveclub.zip file
+* Edit -> Preferences -> Addons -> Install from Disk -> select **io_import_driveclub.zip** file
 * (on Blender 4.1) tick the checkbox at the left side to activate the addon
 
 ## Compatibility
@@ -34,4 +37,4 @@ Addon has been initially written on Blender 4.4.3 but also was successfully test
 * Information about DDS files from Microsoft's site
 
 ## License
-* MIT
+* [MIT](https://github.com/oxmaulmike2581/io_import_driveclub/blob/master/LICENSE)
