@@ -6,6 +6,7 @@
 
 ## Features
 * import vehicle .rpk files with all LODs, UVs, normals, colors, etc.
+* import only LOD0 meshes *(faster)*
 * partial support for materials
 * export textures to .dds (DX10) with all mipmaps
 
@@ -27,9 +28,10 @@ Addon has been initially written on Blender 4.4.3 but also was successfully test
 * 5.4.0-alpha
 
 ## Limitations
-* Material support is partial *(no auto-assigning of textures and properties due to unresearched format)*
+* **Only DriveClub is supported now.** Motorstorm Apocalypse or other games on this engine will not officially supported *(may be it can be changed in the future)*
+* Material support is partial *(no auto-assigning of textures and properties due to unresearched format for DriveClub)*
+* No track/world/location support *(in theory it can be supported but partially, without proper placement)*
 * No skeletal animation at all *(because of same problem)*
-* Some textures *(like occ.dds)* can't be opened in some editors and old versions of Microsoft's DirectXTex can fail on them.
 
 ## Credits
 * [RPK_ResourcePack.bt](https://github.com/Nenkai/010GameTemplates/blob/main/Evolution%20Studios/RPK_ResourcePack.bt) by [Nenkai](https://github.com/nenkai)
