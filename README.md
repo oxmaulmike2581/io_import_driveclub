@@ -27,6 +27,10 @@ Addon has been initially written on Blender 4.4.3 but also was successfully test
 * 5.3.0-beta
 * 5.4.0-alpha
 
+## WARNING
+I'm not responsible for changes in the code in any forks. If you have an error / you broke the functionality / etc. after you (or maybe your AI) changed something - it's only your way now.
+I'm maintain only version released here.
+
 ## Limitations
 * **Only DriveClub is supported now.** Motorstorm Apocalypse or other games on this engine will not officially supported *(may be it can be changed in the future)*
 * Material support is partial *(no auto-assigning of textures and properties due to unresearched format for DriveClub)*
